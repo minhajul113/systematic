@@ -1,0 +1,143 @@
+/* ================ Tablet Layout ============= */
+
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+  .social-area {
+    max-width: 460px;
+    min-height: auto;
+    padding-top: 14px;
+  }
+
+  .social-area ul li {
+    margin-left: -10px;
+    margin-right: 20px;
+  }
+
+  .inner-menu {
+    background: none;
+    min-height: auto;
+  }
+
+  .inner-menu::after {
+    display: none;
+  }
+
+  .mean-container .mean-nav {
+    margin-top: 0;
+    width: 90%;
+  }
+
+  .inner-header {
+    padding: 20px 0;
+  }
+
+  #slider-area {
+    margin: 0;
+  }
+
+  .inner-banner h2 {
+    font-size: 55px;
+  }
+
+  .area-adjust {
+    width: 45%;
+  }
+
+  .testimonial-area {
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    top: 25px;
+    width: 100%;
+  }
+
+  .testimonial-area h2 {
+    margin-bottom: 20px;
+  }
+
+  .testimonial-area .child-testimonial {
+    margin-bottom: 26px;
+  }
+}
+
+
+
+/* ======== Mobile Layout ===========*/
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  .minimenu {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .minimenu ul,
+  .social-area ul {
+    text-align: center;
+  }
+
+  .search-area {
+    float: none;
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  .social-area ul li {
+    margin: 0 5px;
+  }
+
+  .logo-area {
+    margin: 0 auto;
+    float: none;
+  }
+
+  .inner-banner {
+    padding-bottom: 20px;
+  }
+
+  .inner-banner .banner-txt {
+    top: 0px;
+    left: 10px;
+  }
+
+  .inner-banner h2 {
+    font-size: 25px;
+  }
+
+  #work-area,
+  #footer-area {
+    padding: 20px 0;
+  }
+
+  .area-adjust {
+    width: 98%;
+    padding: 10px;
+  }
+
+  .area-adjust a {
+    float: left;
+  }
+
+  .child-footer {
+    width: 96%;
+  }
+
+  .child-blog a {
+    float: left;
+  }
+
+  .inner-copyright p{
+    font-size: 0.8rem;
+  }
+
+  .left-copyright {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .right-copyright {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
